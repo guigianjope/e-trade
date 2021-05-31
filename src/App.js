@@ -54,8 +54,8 @@ function App() {
           <div className="product-detail">
             <h2>Description:</h2>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             <ul>
+            <li>Brand: <span>Nike</span></li>
             <li>Color: <span>White</span></li>
             <li>Available: <span>in stock</span></li>
             <li>Category: <span>Shoes</span></li>
@@ -67,7 +67,7 @@ function App() {
           <div className="purchase-info">
             <input type="number" min="0" value="1"></input>
             <button type="button" className="btn">Add to Cart</button>
-            <button type="button" className="btn">Compare</button>
+            <button type="button" className="btn">Buy</button>
           </div>
 
         </div>
