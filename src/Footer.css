@@ -21,6 +21,21 @@
 }
 
 .col {
-    padding: 30px;
+    padding: 15px 5em;
 }
 
+h4 {
+    margin: 5px;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #a9f1df;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 840px){
+    .col {
+        padding: 15px 2em;
+    }
+}
