@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.main-footer {
+    color: #ffffc7;
+    background-color: #233e8b;
+    position: relative;
+    bottom: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.col {
+    padding: 30px;
+}
+
