@@ -24,7 +24,9 @@ class App extends React.Component{
           ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "category": "Shoes",
-
+        "area": "All North America",
+        "fee": "Free",
+        "availability": "in stock",  
         "price": 180,
         "colors":["blue","black","orange","teal"],
         "count": 1
@@ -84,10 +86,10 @@ class App extends React.Component{
                       <Colors colors={item.colors} />
                       <ul>
                         <li>Brand: <span>{item.brand}</span></li>
-                        <li>Availability: <span>in stock</span></li>
+                        <li>Availability: <span>{item.availability}</span></li>
                         <li>Category: <span>{item.category}</span></li>
-                        <li>Shipping Area: <span>All North America</span></li>
-                        <li>Shipping Fee: <span>Free</span></li>
+                        <li>Shipping Area: <span>{item.area}</span></li>
+                        <li>Shipping Fee: <span>{item.fee}</span></li>
                       </ul>
                     </div>
 
