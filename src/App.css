@@ -110,6 +110,7 @@
 }
 
 .product-price{
+    margin-right: 20px;
     font-size: 1rem;
     font-weight: 700;
 }
