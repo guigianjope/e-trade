@@ -13,22 +13,25 @@ class App extends React.Component{
   state = {
     products: [
       {
-        "_id": "1",
-        "title": "Shoes",
+        "id": "1",
         "brand": "Nike",
-        "src": [
-            shoes1,
-            shoes2,
-            shoes3,
-            shoes4
-          ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "category": "Shoes",
-        "area": "All North America",
+        "name": "Air Jordan",
+        "type": "Shoes",
+        "price": "180",
+        "available": "In Stock",
+        "shipping": "All North America",
+        "colors": ["blue","black","orange","teal"],
+        "size": "10",
+        "gender": "Unisex",
+        "image": [
+          shoes1,
+          shoes2,
+          shoes3,
+          shoes4
+        ],
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "category": "Clothing",
         "fee": "Free",
-        "availability": "in stock",  
-        "price": 180,
-        "colors":["blue","black","orange","teal"],
         "count": 1
       }
     ],
@@ -63,18 +66,18 @@ class App extends React.Component{
                 <div className="product-imgs">
 
                   <div className="img-showcase">
-                    <img src={item.src[index]} alt=""/>
+                    <img src={item.image[index]} alt=""/>
                   </div>
 
                   <div className="img-select">
-                    <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
+                    <DetailsThumb images={item.image} tab={this.handleTab} myRef={this.myRef} />
                   </div>  
                   
                 </div>
 
                 <div className="product-content">
                                         
-                    <h2 className="product-title">{item.title}</h2>
+                    <h2 className="product-title">{item.name}</h2>
 
                     <div className="product-price">
                       <p className="price">Price: <span>${item.price}</span></p>
@@ -86,9 +89,9 @@ class App extends React.Component{
                       <Colors colors={item.colors} />
                       <ul>
                         <li>Brand: <span>{item.brand}</span></li>
-                        <li>Availability: <span>{item.availability}</span></li>
+                        <li>Availability: <span>{item.available}</span></li>
                         <li>Category: <span>{item.category}</span></li>
-                        <li>Shipping Area: <span>{item.area}</span></li>
+                        <li>Shipping Area: <span>{item.shipping}</span></li>
                         <li>Shipping Fee: <span>{item.fee}</span></li>
                       </ul>
                     </div>
