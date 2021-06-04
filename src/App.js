@@ -76,13 +76,15 @@ class App extends React.Component{
                 </div>
 
                 <div className="product-content">
-                                        
-                    <h2 className="product-title">{item.name}</h2>
 
-                    <div className="product-price">
-                      <p className="price">Price: <span>${item.price}</span></p>
-                    </div>
-                    
+                    <div className="title-price">                   
+                      <h2 className="product-title">{item.name}</h2>
+
+                      <div className="product-price">
+                        <p className="price">Price: <span>${item.price}</span></p>
+                      </div>
+                    </div> 
+                     
                     <div className="product-detail">
                       <h2>Description:</h2>
                       <p>{item.description}</p>
