@@ -1,5 +1,6 @@
 import './Header.css';
 import React, { Component } from 'react';
+import logo1 from './img/logo1.png';
 
 
 class Header extends Component {    
@@ -7,9 +8,8 @@ class Header extends Component {
         return (
 
           <>
-            {/* Navigation button */}
             <header> 
-                <h1>e-Trade</h1>
+                <img src={logo1} />
 
                 <nav className = "navBar">
                     <input type = "search" className = "search" placeholder = "search for anything"/>

@@ -22,12 +22,9 @@
             flex-direction: row;
   }
   
-  header h1 {
-    color: #ffffc7;
+  header img {
     background-color: #233e8b;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    width: 250px;
     margin-right: 100px;
   }
   
