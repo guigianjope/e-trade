@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    color: #ffffc7;
+    background-color: #233e8b;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  header h1 {
+    color: #ffffc7;
+    background-color: #233e8b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 100px;
+  }
+  
+  header h1:hover {
+    cursor: pointer;
+  }
+  
+  header .navBar {
+    background-color: #233e8b;
+  }
+  
+  header .navBar .search {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5vw;
+    border: 0.1rem solid #ffffc7;
+    padding: 7px;
+    background-color: #ffffc7;
+    outline: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  header .navBar .search:hover {
+    cursor: pointer;
+  }
+  
+  header .navBar .login {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 100px;
+    border-radius: 5vw;
+    border: none;
+    padding: 9px;
+    color: #ffffc7;
+    background-color: #233e8b;
+    outline: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  header .navBar .login:hover {
+    cursor: pointer;
+    background-color: #ffffc7;
+    color: #233e8b;
+  }
+  
+  header .navBar .cart {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    border-radius: 5vw;
+    border: none;
+    padding: 9px;
+    background-color: #233e8b;
+    color: #ffffc7;
+    outline: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  header .navBar .cart:hover {
+    cursor: pointer;
+    background-color: #ffffc7;
+    color: #233e8b;
+  }
+  
+  .headercontainer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .headercontainer .headerimage {
+    width: 90%;
+    height: 550px;
+  }

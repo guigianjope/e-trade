@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Details from './Details';
-import Footer from './Footer';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Details />
-    <Footer />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
