@@ -49,12 +49,6 @@ class Details extends React.Component{
     images[index].className = "active";
   };
 
-  componentDidMount(){
-    const {index} = this.state;
-    this.myRef.current.children[index].className = "active";
-  }
-
-
   render(){
     const {products, index} = this.state;
     return(
